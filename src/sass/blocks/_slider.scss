@@ -1,0 +1,67 @@
+.slider {
+    position: relative;
+    top: -85px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    
+    input {
+        display: none;
+    }
+
+    &__kadoves {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+       
+        label {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+            margin: 0 10px;
+            
+            border-radius: 50%;
+            border: 2px solid #000000;
+            background-color: $a;
+        }
+    }
+    #slaid1:checked~.slider__kadoves label[for="slaid1"] {
+        background-color: #e2d1a6;
+        } 
+    #slaid2:checked~.slider__kadoves label[for="slaid2"] {
+        background-color: #e2d1a6;
+        }
+    #slaid3:checked~.slider__kadoves label[for="slaid3"] {
+        background-color: #e2d1a6; 
+        }
+
+    &__content {
+        overflow: hidden;
+    }
+
+    &__item {
+        display: flex;
+        width: 100%;
+        height: 95.5vh;
+        transition: all 0.5s;
+        img {
+            width: 100%;
+
+            flex-shrink: 0;
+        }
+    }
+    #slaid1:checked~.slider__content .slider__item {
+        transform: translate(0);
+      }
+      
+      #slaid2:checked~.slider__content .slider__item {
+        transform: translateX(-100%);
+      }
+      
+      #slaid3:checked~.slider__content .slider__item {
+        transform: translateX(-200%);
+      }
+}
