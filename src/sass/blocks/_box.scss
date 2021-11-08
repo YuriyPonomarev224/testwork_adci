@@ -1,0 +1,16 @@
+.box {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+    bottom: 0px;
+    &__btn {
+        margin: 0 auto;
+    }
+    &__wrapper {
+        z-index: 2;
+        position: absolute;
+        width: 1200px;
+        min-height: 172px;
+        margin: 0 auto;
+    }
+}

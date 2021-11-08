@@ -1,0 +1,32 @@
+.home {
+    position: relative;
+    &__text {
+        box-sizing:border-box;
+        position: absolute;
+        width: 512px;
+        min-height: 138px;
+        opacity: 0.85;
+        background-color:$a;
+        z-index: 2;
+        top: 41.2%;
+        right: 0px;
+        padding: 18px 27px 19px 27px;
+        &_h2 {
+            font-family: 'Playfair Display';
+            font-size: 30px;
+            font-weight: 700;
+            font-style: italic;
+            text-transform: uppercase;
+            color: #020202;
+        }
+        &_p {
+            font-family: 'Open Sans';
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #000000;
+            max-width: 450px;
+            margin-top: 30px;
+        }
+    }
+}
