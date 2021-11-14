@@ -17,13 +17,12 @@
         height: 28px;
         background-color: #ffffff;
         border: none;
-        &:active {
-            transform: rotate(180deg);
-            
+        &:hover {
+            cursor: pointer;
         }
     }
     &__wrapper {
-        display: flex;
+        display: none;
         z-index: 2;
         width: 1200px;
         min-height: 172px;
@@ -39,34 +38,69 @@
     &__item1 {
         max-width: 400px;
         box-sizing:border-box;
-        padding: 17px 44px 8px 15px;
+        padding: 14px 21px 8px 15px;
         background-color: #e2d1a6;
+        &_h {
+            max-width: 334px;
+            min-height: 59px;
+            margin-bottom: 9px;
+        }
         &_p {
             font-family: 'Open Sans';
             font-size: 16px;
             line-height: 24px;
             font-weight: 400;
         }
+        &_link {
+            float: right;
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: underline;
+            color: #ffffff;
+            margin-top: 18px;
+        }
     }
     &__item2 {
         width: 400px;
         box-sizing:border-box;
-        padding: 18px 44px 8px 14px;
+        padding: 14px 21px 8px 14px;
         background-color: #ffffff;
+        &_h {
+            max-width: 334px;
+            min-height: 59px;
+            margin-bottom: 9px;
+        }
         &_p {
             font-family: 'Open Sans';
             font-size: 16px;
             line-height: 24px;
             font-weight: 400;
+        }
+        &_link {
+            float: right;
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            margin-top: 18px;
+            text-decoration: none;
+            
+
         }
     }
 
     &__item3 {
         width: 400px;
         box-sizing:border-box;
-        padding: 18px 44px 8px 16px;
+        padding: 14px 21px 8px 16px;
         background-color: #000000;
         color: #ffffff;
+        &_h {
+            max-width: 344px;
+            min-height: 59px;
+            margin-bottom: 9px;
+        }
         &_p {
             font-family: 'Open Sans';
             font-size: 16px;
@@ -74,5 +108,22 @@
             font-weight: 400;
             color: #fefefe;
         }
+        &_link {
+            float: right;
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-top: 18px;
+            text-decoration: none;
+        }
+    }
+
+    &__show {
+        display: flex;
+    }
+
+    &__rotatebtn {
+        transform: rotate(180deg);
     }
 }
