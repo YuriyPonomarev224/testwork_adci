@@ -12,7 +12,6 @@
   font-size: 14px;
   font-weight: 400;
   color: $a;
-  z-index: 2;
   &__logo {
     width: 283px;
     height: 83px;
@@ -100,6 +99,10 @@
         border-bottom: none;
       }
     }
+  }
+  &__modal:hover {
+      cursor: pointer;
+      color: #e2d1a6;
   }
 }
 

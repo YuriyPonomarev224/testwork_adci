@@ -85,7 +85,47 @@
                 </div>
             </div>
         </section>
+        <section class="modalbox" id="modalbox">
+            <div class="modalbox__wrapper">
+                <div class="modalbox__text">
+                    <p class="modalbox__text_h">AREA RISERVATA</p>
+                    <img src="icons/modal_exit.svg" alt="Exit" class="modalbox__img" onclick="modalWidow()">
+                </div>
+                <div class="modalbox__form">
+                    <div class="modalbox__form_accedi">
+                        <p class="modalbox__form_h">ACCEDI</p>
+                        <form class="modalbox__form_container" action="#">
+                            <input class="modalbox__form_inputs_accedi"  name="email" required placeholder="Email" type="email">
+                            <input class="modalbox__form_inputs_accedi" name="password" required placeholder="Password" type="password">
+                            <button class="modalbox__form_btn">ACCEDI</button>
+                            <a href="#" class="modalbox__form_link">Password dimenticata</a>
+                        </form>
+                    </div>
+                    <div class="modalbox__form_reg">
+                        <p class="modalbox__form_h">REGISTRATI</p>
+                        <form class="modalbox__form_container" action="#">
+                            <input class="modalbox__form_inputs" name="name" required placeholder="Nome" type="text">
+                            <input class="modalbox__form_inputs" name="cogname" required placeholder="Cognome" type="text">
+                            <input class="modalbox__form_inputs" name="email" required placeholder="E-mail" type="email">
+                            <input class="modalbox__form_inputs" name="password" required placeholder="Password" type="password">
+                            <label class="modalbox__form_label">
+                                <input class="modalbox__form_checkbox" required type="checkbox" name="Dati" value="Processing of data">
+                                Acconsento al trattamento dei dati
+                            </label>
+                            <label class="modalbox__form_label">
+                                <input class="modalbox__form_checkbox" required type="checkbox" name="News" value="News">
+                                Mi iscrivo alla Newsletter
+                            </label>
+                            <button class="modalbox__form_btn">ISCRIVITI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        
+    </footer>
 </body>
 <script src="js/script.js"></script>
 </html>

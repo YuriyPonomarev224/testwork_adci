@@ -1,4 +1,6 @@
-
+main {
+    position: relative;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -9,3 +11,4 @@
 @import 'blocks/home';
 @import 'blocks/slider';
 @import 'blocks/box';
+@import 'blocks/modalbox';
