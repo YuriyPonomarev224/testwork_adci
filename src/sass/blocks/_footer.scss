@@ -14,7 +14,87 @@
             &:first-child {
                 color: #fefefe;
             }
+            &_h {
+                font-family: 'Playfair Display';
+                font-size: 14px;
+                line-height: 23px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 26px;
+            }
+            &_p {
+                width: 181px;
+                font-family: 'Open Sans';
+                font-size: 12px;
+                line-height: 17px;
+                font-weight: 300;
+            }
         }
+        &_form {
+            display: flex;
+            flex-direction: column;
+            &_inputs {
+                box-sizing: border-box;
+                width: 184px;
+                height: 32px;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                line-height: 17px;
+                font-weight: 300;
+                color: #8c8c8c;
+                margin-bottom: 10px;
+                padding-left: 6px;
+                border:none;
+                &:first-child {
+                    margin-bottom: 12px;
+                }
+            }
+            &_label {
+                font-family: 'Open Sans';
+                font-size: 10px;
+                line-height: 10px;
+                font-weight: 400;
+                color: #b5b4b4;
+            }
+            &_checkbox {
+                width: 10px;
+                height: 10px;
+            }
+            &_btn {
+                margin-top: 7px;
+                border: none;
+                width: 184px;
+                height: 32px;
+                background-color: #000000;
+                font-family: 'Open Sans';
+                font-size: 17.7px;
+                line-height: 23px;
+                font-weight: 400;
+                color: #ffffff;
+                &:hover {
+                    cursor: pointer;
+                    color: #e2d1a6;
+                }
+            }
+        }   
 
+    }
+    &__subtext {
+        box-sizing:border-box;
+        display: flex;
+        padding: 23px 20px 0 19px;
+        color: $a;
+        font-family: 'Open Sans';
+        justify-content: space-between;
+
+        &_title {
+            display: flex;
+            width: 703px;
+            justify-content: space-between;
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 400;
+            padding-top: 7px;
+        }
     }
 }
