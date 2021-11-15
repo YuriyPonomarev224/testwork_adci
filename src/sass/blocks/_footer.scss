@@ -1,0 +1,20 @@
+.footer {
+    height: 274px;
+    background-color: $head;
+    box-sizing: border-box;
+    padding: 39px 0 17px 0;
+    &__wrapper {
+        box-sizing: border-box;
+        padding: 0 158px 0 155px;
+        display: flex;
+        justify-content: space-between;
+        &_item {
+            max-width: 189px;
+            color: $a;
+            &:first-child {
+                color: #fefefe;
+            }
+        }
+
+    }
+}
