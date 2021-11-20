@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -21,21 +21,22 @@
                     <img src="icons/riservata_icon.svg" alt="RISERVATA" class="header__modal_icon">
                 </div>
                 <nav class="header__menu">
-                    <ul><a href="#" class="header__menu_link">HOME</a>
-                        <a href="#" class="header__menu_link header__dropdown">AZIENDA</a>
-                        <div class="header__dropdown_content">
-                            <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">STORIA</a>
-                            </div>
-                            <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">MM DESIGN</a>
-                            </div>
-                            <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">DESIGNER</a>
-                            </div>
-                            <div class="header__dropdown_item"><a class="header__dropdown_link"
-                                    href="#">CERTIFICAZIONI</a></div>
-                        </div>
-                        <a href="#" class="header__menu_link">COLLEZIONI</a>
-                        <a href="#" class="header__menu_link">NEWS</a>
-                        <a href="#" class="header__menu_link">CONTATTI</a>
+                    <ul class="header__menu_list">
+                        <li class="header__menu_list_item"><a href="#" class="header__menu_link">HOME</a></li>
+                        <li class="header__menu_list_item"><a href="#" class="header__menu_link header__dropdown">AZIENDA</a>
+                            <div class="header__dropdown_content">
+                                <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">STORIA</a>
+                                </div>
+                                <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">MM DESIGN</a>
+                                </div>
+                                <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">DESIGNER</a>
+                                </div>
+                                <div class="header__dropdown_item"><a class="header__dropdown_link"
+                                        href="#">CERTIFICAZIONI</a></div>
+                            </div></li>
+                        <li class="header__menu_list_item"><a href="#" class="header__menu_link">COLLEZIONI</a></li>
+                        <li class="header__menu_list_item"><a href="#" class="header__menu_link">NEWS</a></li>
+                        <li class="header__menu_list_item"><a href="#" class="header__menu_link">CONTATTI</a></li>
                     </ul>
                 </nav>
             </div>
@@ -43,27 +44,27 @@
 
         <section class="home">
             <div class="slider">
-                <input type="radio" name="kadoves" id="slaid1" checked>
-                <input type="radio" name="kadoves" id="slaid2">
-                <input type="radio" name="kadoves" id="slaid3">
+                <input class="slider__inputs" type="radio" name="kadoves" id="slaid1" checked>
+                <input class="slider__inputs" type="radio" name="kadoves" id="slaid2">
+                <input class="slider__inputs" type="radio" name="kadoves" id="slaid3">
 
                 <div class="slider__kadoves">
-                    <label for="slaid1"></label>
-                    <label for="slaid2"></label>
-                    <label for="slaid3"></label>
+                    <label class="slider__kadoves_labels" for="slaid1"></label>
+                    <label class="slider__kadoves_labels" for="slaid2"></label>
+                    <label class="slider__kadoves_labels" for="slaid3"></label>
                 </div>
 
                 <div class="slider__content">
                     <div class="slider__item">
-                        <img src="img/img1.jpg" alt="image1" />
-                        <img src="img/img2.jpg" alt="image2" />
-                        <img src="img/img3.jpg" alt="image3" />
+                        <img class="slider__item_img" src="img/img1.jpg" alt="image1" />
+                        <img class="slider__item_img" src="img/img2.jpg" alt="image2" />
+                        <img class="slider__item_img" src="img/img3.jpg" alt="image3" />
                     </div>
                 </div>
             </div>
             <div class="home__text">
                 <div class="home__text_h2">Lampadari contemporanei</div>
-                <div class="home__text_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed eiusmod tempor
+                <div class="home__text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     dolore</div>
             </div>
             <div class="box">
@@ -72,19 +73,19 @@
                 <div id="box_content" class="box__wrapper">
                     <div class="box__item1">
                         <div class="box__item1_h">Stai pensando ad un progetto?</div>
-                        <div class="box__item1_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed eiusmod
+                        <div class="box__item1_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor dolore</div>
                         <a href="#" class="box__item1_link">Approfondisci</a>
                     </div>
                     <div class="box__item2">
                         <div class="box__item2_h">Vi aspettiamo alla fiera Euroluce</div>
-                        <div class="box__item2_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed eiusmod
+                        <div class="box__item2_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor dolore</div>
                         <a href="#" class="box__item2_link">Approfondisci</a>
                     </div>
                     <div class="box__item3">
                         <div class="box__item3_h">Scopri la nuova collezione</div>
-                        <div class="box__item3_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed eiusmod
+                        <div class="box__item3_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor dolore</div>
                         <a href="#" class="box__item3_link">Approfondisci</a>
                     </div>
@@ -182,23 +183,24 @@
             </div>
             <div class="footer__subtext_icons">
                 <a href="#" class="footer__subtext_icons_links"><img
-                        src="icons/fb_icon.svg" alt="Facebook" class="footer__img"></a>
-                <a href="#" class="footer__subtext_icons_links"><img src="icons/inst_icon.svg" alt="Instagram"
+                        src="icons/facebook_icon.png" alt="Facebook" class="footer__img"></a>
+                <a href="#" class="footer__subtext_icons_links"><img src="icons/instagram_icon.png" alt="Instagram"
                         class="footer__img"></a>
-                <a href="#" class="footer__subtext_icons_links"><img src="icons/p_icon.svg" alt="P"
+                <a href="#" class="footer__subtext_icons_links"><img src="icons/prin_icon.png" alt="P"
                         class="footer__img"></a>
             </div>
             <div class="footer__subtext_lng">
-                <ul class="footer__subtext_lng_ul">
+                <div class="footer__subtext_lng_ul">
                     <div class="footer__subtext_lng_item">ITA</div>
                     <div class="footer__subtext_lng_item">ENG</div>
                     <div class="footer__subtext_lng_item">DEU</div>
                     <div class="footer__subtext_lng_item">PYC</div>
-                </ul>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
+
 
 </html>
