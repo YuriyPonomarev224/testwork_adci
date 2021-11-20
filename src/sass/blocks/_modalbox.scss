@@ -94,6 +94,9 @@
             color: #b5b4b4;
             margin-top: 2px;
             margin-bottom: 12px;
+            &:hover {
+                color:#e2d1a6;
+            }
            
         }
         &_btn {
@@ -130,6 +133,13 @@
             text-decoration: none;
             margin-top: 12px;
             box-sizing:border-box;
+            &:hover {
+                color:#e2d1a6;
+                text-decoration: underline;
+            }
+            &:active {
+                color: red;
+            }
         }
     }
 }

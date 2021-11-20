@@ -67,14 +67,11 @@ main {
   text-decoration: none;
   color: #fff;
 }
-.header__menu a:active {
-  color: #fff;
-}
-.header__menu a:visited {
-  color: #fff;
-}
 .header__menu a:hover {
   color: #e2d1a6;
+}
+.header__menu a:active {
+  color: red;
 }
 .header__menu_link {
   text-decoration: none;
@@ -120,6 +117,9 @@ main {
 .header__modal:hover {
   cursor: pointer;
   color: #e2d1a6;
+}
+.header__modal:active {
+  color: red;
 }
 .home {
   position: relative;
@@ -278,6 +278,9 @@ main {
 .box__item1_link:hover {
   color: #000;
 }
+.box__item1_link:active {
+  color: red;
+}
 .box__item2 {
   width: 400px;
   box-sizing: border-box;
@@ -307,6 +310,9 @@ main {
 .box__item2_link:hover {
   color: #e2d1a6;
   text-decoration: overline;
+}
+.box__item2_link:active {
+  color: red;
 }
 .box__item3 {
   width: 400px;
@@ -340,6 +346,9 @@ main {
   color: #e2d1a6;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
+}
+.box__item3_link:active {
+  color: red;
 }
 .box__show {
   display: flex;
@@ -450,6 +459,9 @@ main {
   margin-top: 2px;
   margin-bottom: 12px;
 }
+.modalbox__form_label:hover {
+  color: #e2d1a6;
+}
 .modalbox__form_btn {
   width: 184px;
   height: 31px;
@@ -482,6 +494,13 @@ main {
   text-decoration: none;
   margin-top: 12px;
   box-sizing: border-box;
+}
+.modalbox__form_link:hover {
+  color: #e2d1a6;
+  text-decoration: underline;
+}
+.modalbox__form_link:active {
+  color: red;
 }
 .footer {
   min-height: 274px;
@@ -549,6 +568,9 @@ main {
   line-height: 10px;
   font-weight: 400;
   color: #b5b4b4;
+}
+.footer__wrapper_form_label:hover {
+  color: #e2d1a6;
 }
 .footer__wrapper_form_checkbox {
   width: 10px;
@@ -628,6 +650,9 @@ main {
   cursor: pointer;
   color: #e2d1a6;
 }
+.footer__subtext_lng_item:active {
+  color: red;
+}
 .footer__subtext_icons {
   color: #000;
   margin-left: auto;
@@ -643,4 +668,7 @@ main {
 .footer__subtext_icons_links:hover {
   background-color: #e2d1a65d;
   border-radius: 20px;
+}
+.footer__subtext_icons_links:active {
+  background-color: red;
 }

@@ -53,14 +53,11 @@
     a {
       text-decoration: none;
       color: $a;
-      &:active {
-        color: #ffffff;
-      }
-      &:visited {
-        color: #ffffff;
-      }
       &:hover {
         color: #e2d1a6;
+      }
+      &:active {
+        color: red;
       }
     }
   }
@@ -109,9 +106,14 @@
       }
     }
   }
-  &__modal:hover {
+  &__modal {
+     &:hover {
       cursor: pointer;
       color: #e2d1a6;
+  }
+    &:active {
+    color:red;
+    } 
   }
 }
 
