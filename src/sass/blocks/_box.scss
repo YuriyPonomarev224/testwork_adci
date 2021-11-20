@@ -59,6 +59,9 @@
             text-decoration: underline;
             color: #ffffff;
             margin-top: 8px;
+            &:hover {
+                color:black;
+            }
         }
     }
     &__item2 {
@@ -85,6 +88,10 @@
             color: #000000;
             margin-top: 8px;
             text-decoration: none;
+            &:hover {
+                color:#e2d1a6;
+                text-decoration: overline;
+            }
             
 
         }
@@ -116,6 +123,10 @@
             color: #ffffff;
             margin-top: 8px;
             text-decoration: none;
+            &:hover {
+                color:#e2d1a6;
+                text-decoration: underline dotted;
+            }
         }
     }
 
