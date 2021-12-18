@@ -16,7 +16,7 @@
             <div class="header__logo"><a href="#" class="header__logo_ling"><img src="icons/logo_2782.png" alt="logo"
                         class="header__logo_img"></a></div>
             <div class="header__wrapper">
-                <div class="header__modal" onclick="modalWidow()">
+                <div class="header__modal" id="Header_Modal_Btn">
                     <div class="header__modal_text">AREA RISERVATA</div>
                     <img src="icons/riservata_icon.svg" alt="RISERVATA" class="header__modal_icon">
                 </div>
@@ -68,7 +68,7 @@
                     dolore</div>
             </div>
             <div class="box">
-                <button id="box_btn" class="box__btn" onclick="myFunction()"><img class="box__btn_img"
+                <button id="box_btn" class="box__btn"><img class="box__btn_img"
                         src="icons/freccia.png" alt="click"></button>
                 <div id="box_content" class="box__wrapper">
                     <div class="box__item1">
@@ -96,7 +96,7 @@
             <div class="modalbox__wrapper">
                 <div class="modalbox__text">
                     <p class="modalbox__text_h">AREA RISERVATA</p>
-                    <img src="icons/modal_exit.svg" alt="Exit" class="modalbox__img" onclick="modalWidow()">
+                    <img src="icons/modal_exit.svg" alt="Exit" class="modalbox__img" id="Modal_Exit">
                 </div>
                 <div class="modalbox__form">
                     <div class="modalbox__form_accedi">
@@ -160,7 +160,7 @@
             <div class="footer__wrapper_item">
                 <div class="footer__wrapper_item_h">NEWSLETTER</div>
                 <form class="footer__wrapper_form">
-                    <input class="footer__wrapper_form_inputs" name="name e cogname" required
+                    <input class="footer__wrapper_form_inputs" name="newsletterName" required
                         placeholder="Nome e Cognome" type="text">
                     <input class="footer__wrapper_form_inputs" name="email" required placeholder="E-mail" type="email">
                     <label class="footer__wrapper_form_label">
