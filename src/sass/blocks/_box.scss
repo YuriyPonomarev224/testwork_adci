@@ -18,6 +18,9 @@
         height: 28px;
         background-color: #ffffff;
         border: none;
+        background-image: url(../../icons/freccia.png);
+        background-repeat:no-repeat;
+        background-position:center;
         &:hover {
             cursor: pointer;
         }

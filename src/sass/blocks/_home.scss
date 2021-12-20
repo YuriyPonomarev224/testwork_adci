@@ -1,32 +1,4 @@
 .home {
     position: relative;
     overflow: hidden;
-    &__text {
-        box-sizing:border-box;
-        position: absolute;
-        width: 509px;
-        min-height: 138px;
-        opacity: 0.85;
-        background-color:$a;
-        top: 251px;
-        right: 0px;
-        padding: 16px 24px 19px 27px;
-        &_h2 {
-            font-family: 'Playfair Display';
-            font-size: 30px;
-            font-weight: 700;
-            font-style: italic;
-            text-transform: uppercase;
-            color: #020202;
-        }
-        &_p {
-            font-family: 'Open Sans';
-            font-size: 18px;
-            line-height: 24px;
-            font-weight: 400;
-            color: #000000;
-            max-width: 450px;
-            margin-top: 20px;
-        }
-    }
 }

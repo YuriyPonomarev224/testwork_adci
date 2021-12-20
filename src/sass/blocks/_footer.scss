@@ -162,6 +162,9 @@
             justify-content: space-between;
             &_links {
                 height: 18px;
+                width: 18px;
+                background-repeat: no-repeat;
+                background-position: center;
                 &:hover {
                     background-color:#e2d1a65d;
                     border-radius: 20px;
@@ -169,6 +172,18 @@
                 &:active {
                     background-color:red;
                 }
+
+            }
+
+            &_fb {
+                background-image: url(../../icons/facebook_icon.png);
+            }
+            &_inst {
+                background-image: url(../../icons/instagram_icon.png);
+            }
+            &_pst {
+                background-image: url(../../icons/prin_icon.png);
+                
             }
         }
     }

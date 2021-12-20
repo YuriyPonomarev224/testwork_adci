@@ -13,27 +13,31 @@
 <body>
     <main>
         <header class="header">
-            <div class="header__logo"><a href="#" class="header__logo_ling"><img src="icons/logo_2782.png" alt="logo"
+            <div class="header__logo"><a href="#" class="header__logo_ling"><img src="img/logo_2782.png" alt="logo"
                         class="header__logo_img"></a></div>
             <div class="header__wrapper">
                 <div class="header__modal" id="Header_Modal_Btn">
                     <div class="header__modal_text">AREA RISERVATA</div>
-                    <img src="icons/riservata_icon.svg" alt="RISERVATA" class="header__modal_icon">
+                    <a class="header__modal_icon"></a>
                 </div>
                 <nav class="header__menu">
                     <ul class="header__menu_list">
                         <li class="header__menu_list_item"><a href="#" class="header__menu_link">HOME</a></li>
-                        <li class="header__menu_list_item"><a href="#" class="header__menu_link header__dropdown">AZIENDA</a>
+                        <li class="header__menu_list_item"><a href="#"
+                                class="header__menu_link header__dropdown">AZIENDA</a>
                             <div class="header__dropdown_content">
                                 <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">STORIA</a>
                                 </div>
-                                <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">MM DESIGN</a>
+                                <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">MM
+                                        DESIGN</a>
                                 </div>
-                                <div class="header__dropdown_item"><a class="header__dropdown_link" href="#">DESIGNER</a>
+                                <div class="header__dropdown_item"><a class="header__dropdown_link"
+                                        href="#">DESIGNER</a>
                                 </div>
                                 <div class="header__dropdown_item"><a class="header__dropdown_link"
                                         href="#">CERTIFICAZIONI</a></div>
-                            </div></li>
+                            </div>
+                        </li>
                         <li class="header__menu_list_item"><a href="#" class="header__menu_link">COLLEZIONI</a></li>
                         <li class="header__menu_list_item"><a href="#" class="header__menu_link">NEWS</a></li>
                         <li class="header__menu_list_item"><a href="#" class="header__menu_link">CONTATTI</a></li>
@@ -44,48 +48,65 @@
 
         <div class="home">
             <div class="slider">
-                <input class="slider__inputs" type="radio" name="kadoves" id="slaid1" checked>
-                <input class="slider__inputs" type="radio" name="kadoves" id="slaid2">
-                <input class="slider__inputs" type="radio" name="kadoves" id="slaid3">
-
-                <div class="slider__kadoves">
-                    <label class="slider__kadoves_labels" for="slaid1"></label>
-                    <label class="slider__kadoves_labels" for="slaid2"></label>
-                    <label class="slider__kadoves_labels" for="slaid3"></label>
-                </div>
-
-                <div class="slider__content">
-                    <div class="slider__item">
-                        <img class="slider__item_img" src="img/img1.jpg" alt="image1" />
-                        <img class="slider__item_img" src="img/img2.jpg" alt="image2" />
-                        <img class="slider__item_img" src="img/img3.jpg" alt="image3" />
+                <div class="slider__item">
+                    <img src="img/img1.jpg" alt="Первый слайд">
+                    <div class="slider__item_text">
+                        <div class="slider__item_text_h2">Lampadari contemporanei</div>
+                        <div class="slider__item_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor
+                            dolore</div>
                     </div>
                 </div>
+
+                <div class="slider__item">
+                    <img src="img/img2.jpg" alt="Второй слайд">
+                    <div class="slider__item_text">
+                        <div class="slider__item_text_h2">Второй слайд</div>
+                        <div class="slider__item_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor
+                            dolore</div>
+                    </div>
+                </div>
+
+                <div class="slider__item">
+                    <img src="img/img3.jpg" alt="Третий слайд">
+                    <div class="slider__item_text">
+                        <div class="slider__item_text_h2">Третий слайд</div>
+                        <div class="slider__item_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor
+                            dolore</div>
+                    </div>
+                </div>
+
+
             </div>
-            <div class="home__text">
-                <div class="home__text_h2">Lampadari contemporanei</div>
-                <div class="home__text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    dolore</div>
+
+            <div class="slider__dots">
+                <span class="slider__dots_item" onclick="currentSlide(1)"></span>
+                <span class="slider__dots_item" onclick="currentSlide(2)"></span>
+                <span class="slider__dots_item" onclick="currentSlide(3)"></span>
             </div>
             <div class="box">
-                <button id="box_btn" class="box__btn"><img class="box__btn_img"
-                        src="icons/freccia.png" alt="click"></button>
+                <button id="box_btn" class="box__btn"></button>
                 <div id="box_content" class="box__wrapper">
                     <div class="box__item1">
                         <div class="box__item1_h">Stai pensando ad un progetto?</div>
-                        <div class="box__item1_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <div class="box__item1_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor dolore</div>
                         <a href="#" class="box__item1_link">Approfondisci</a>
                     </div>
                     <div class="box__item2">
                         <div class="box__item2_h">Vi aspettiamo alla fiera Euroluce</div>
-                        <div class="box__item2_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <div class="box__item2_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor dolore</div>
                         <a href="#" class="box__item2_link">Approfondisci</a>
                     </div>
                     <div class="box__item3">
                         <div class="box__item3_h">Scopri la nuova collezione</div>
-                        <div class="box__item3_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <div class="box__item3_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor dolore</div>
                         <a href="#" class="box__item3_link">Approfondisci</a>
                     </div>
@@ -96,7 +117,7 @@
             <div class="modalbox__wrapper">
                 <div class="modalbox__text">
                     <p class="modalbox__text_h">AREA RISERVATA</p>
-                    <img src="icons/modal_exit.svg" alt="Exit" class="modalbox__img" id="Modal_Exit">
+                    <div src="icons/modal_exit.svg" class="modalbox__img" id="Modal_Exit"></div>
                 </div>
                 <div class="modalbox__form">
                     <div class="modalbox__form_accedi">
@@ -106,7 +127,7 @@
                                 type="email">
                             <input class="modalbox__form_inputs_accedi" name="password" required placeholder="Password"
                                 type="password">
-                            <button class="modalbox__form_btn">ACCEDI</button>
+                            <input type="submit" value="ACCEDI" class="modalbox__form_btn"></input>
                             <a href="#" class="modalbox__form_link">Password dimenticata</a>
                         </form>
                     </div>
@@ -130,7 +151,7 @@
                                     value="News">
                                 Mi iscrivo alla Newsletter
                             </label>
-                            <button class="modalbox__form_btn">ISCRIVITI</button>
+                            <input type="submit" value="ISCRIVITI" class="modalbox__form_btn"></input>
                         </form>
                     </div>
                 </div>
@@ -168,7 +189,7 @@
                             value="Processing of data">
                         Acconsento al trattamento dei dati
                     </label>
-                    <button class="footer__wrapper_form_btn">ISCRIVITI</button>
+                    <input type="submit" value="ISCRIVITI" class="footer__wrapper_form_btn"></input>
                 </form>
             </div>
         </div>
@@ -178,16 +199,14 @@
                 <div class="footer__subtext_title_item">Via Feltrina 00</div>
                 <div class="footer__subtext_title_item">31111 Pederobba (TV)</div>
                 <div class="footer__subtext_title_item"> 0423.123456</div>
-                <div class="footer__subtext_title_item"><a href="mailto:info@mmlampadari.mm" class="footer__subtext_title_link">info@mmlampadari.mm</a></div>
+                <div class="footer__subtext_title_item"><a href="mailto:info@mmlampadari.mm"
+                        class="footer__subtext_title_link">info@mmlampadari.mm</a></div>
                 <div class="footer__subtext_title_item">P.IVA 04123456789</div>
             </div>
             <div class="footer__subtext_icons">
-                <a href="#" class="footer__subtext_icons_links"><img
-                        src="icons/facebook_icon.png" alt="Facebook" class="footer__img"></a>
-                <a href="#" class="footer__subtext_icons_links"><img src="icons/instagram_icon.png" alt="Instagram"
-                        class="footer__img"></a>
-                <a href="#" class="footer__subtext_icons_links"><img src="icons/prin_icon.png" alt="P"
-                        class="footer__img"></a>
+                <a href="#" class="footer__subtext_icons_links footer__subtext_icons_fb"></a>
+                <a href="#" class="footer__subtext_icons_links footer__subtext_icons_inst"></a>
+                <a href="#" class="footer__subtext_icons_links footer__subtext_icons_pst"></a>
             </div>
             <div class="footer__subtext_lng">
                 <div class="footer__subtext_lng_ul">
@@ -200,6 +219,7 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 

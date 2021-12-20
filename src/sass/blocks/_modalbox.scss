@@ -41,6 +41,8 @@
         position: absolute;
         top: 13px;
         right: 18px;
+        background-image: url(../../icons/modal_exit.svg);
+        background-size: cover;
         &:hover {
             cursor: pointer;
         }
