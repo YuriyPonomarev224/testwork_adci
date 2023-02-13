@@ -23,8 +23,7 @@
     .slider {
         &__item {
             img {
-                width: auto;
-                object-position: -500px -71px;
+                object-position: 50% 50%;
             }
             &_text {
                 max-width:200px;
