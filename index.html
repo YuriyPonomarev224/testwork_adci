@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <title>Testwork ADCI</title>
 </head>
 
 <body>
@@ -141,16 +141,13 @@
                                 type="email">
                             <input class="modalbox__form_inputs" name="password" required placeholder="Password"
                                 type="password">
-                            <label class="modalbox__form_label">
-                                <input class="modalbox__form_checkbox" required type="checkbox" name="Dati"
-                                    value="Processing of data">
-                                Acconsento al trattamento dei dati
-                            </label>
-                            <label class="modalbox__form_label">
-                                <input class="modalbox__form_checkbox" required type="checkbox" name="News"
-                                    value="News">
-                                Mi iscrivo alla Newsletter
-                            </label>
+                                
+                            <input id="modal_dati" class="custom-checkbox" required type="checkbox" name="Dati" value="Processing of data">
+                            <label for="modal_dati" class="modalbox__form_label">Acconsento al trattamento dei dati</label>
+
+                            <input id="modal_news" class="custom-checkbox" required type="checkbox" name="News" value="News">
+                            <label for="modal_news" class="modalbox__form_label">Mi iscrivo alla Newsletter</label>
+                            
                             <input type="submit" value="ISCRIVITI" class="modalbox__form_btn">
                         </form>
                     </div>
@@ -184,11 +181,10 @@
                     <input class="footer__wrapper_form_inputs" name="newsletterName" required
                         placeholder="Nome e Cognome" type="text">
                     <input class="footer__wrapper_form_inputs" name="email" required placeholder="E-mail" type="email">
-                    <label class="footer__wrapper_form_label">
-                        <input class="footer__wrapper_form_checkbox" required type="checkbox" name="Dati"
-                            value="Processing of data">
-                        Acconsento al trattamento dei dati
-                    </label>
+
+                    <input id="footer_dati" class="custom-checkbox" required type="checkbox" name="Dati" value="Processing of data">
+                    <label for="footer_dati" class="footer__wrapper_form_label">Acconsento al trattamento dei dati</label>
+
                     <input type="submit" value="ISCRIVITI" class="footer__wrapper_form_btn">
                 </form>
             </div>
